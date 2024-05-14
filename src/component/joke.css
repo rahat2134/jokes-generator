@@ -1,0 +1,35 @@
+.body-box {
+    display: flex;
+    flex-direction: column; /* Add this line */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #19d2df;
+}
+.joke-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh; /* Use min-height instead of height to allow the container to grow if the content is larger */
+    padding: 20px; /* Add some padding to give the content inside the container some space */
+    background-color: #f0e9e9;
+    border: 2px solid #000;
+    border-radius: 15px;
+    margin-bottom: 30px; /* Add some margin to the bottom to give some space between the container and the next element */
+    text-align: center; /* Center the text inside the container */
+    box-shadow: inset 0 0 10px #000; /* Add a box shadow to give the container some depth */
+}
+button {
+    background-color: #f0e9e9;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 30px; /* Add this line */
+    cursor: pointer;
+    box-shadow: inset 0 0 10px #000; /* Add a box shadow to give the container some depth */
+}
+button:active {
+    background-color: #19d2df;
+    color: #f0e9e9;
+}
+
